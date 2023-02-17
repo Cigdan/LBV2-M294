@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.formContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto
+}
+
+.errorMessage{
+  margin-top: 0;
+  padding-top: 0;
+  color: red;
+  font-size: 10pt;
+}
+
+.country{
+  font-size: 10pt;
+}
+
+.date{
+  height:50px;
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  margin: 0;
+  padding: 0;
+}
